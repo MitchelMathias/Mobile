@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: 0px;
+  font-family: "Montserrat";
+}
+
+.pag01 {
+  background-image: url(../img/SESSAO_01/7.png), url(../img/SESSAO_01/8.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: auto;
+}
+.pag01 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  width: 90vw;
+  height: 80px;
+}
+.pag01 header img {
+  height: 30px;
+}
+.pag01 header ul {
+  display: flex;
+  list-style: none;
+}
+.pag01 header ul li {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  height: 75px;
+  margin: 0px 5px;
+}
+.pag01 header ul li a {
+  color: black;
+  text-decoration: none;
+}
+.pag01 header ul li:hover {
+  background-color: #049DD9;
+}
+.pag01 header ul li:hover a {
+  text-shadow: none;
+  font-weight: bold;
+  color: white;
+}
+.pag01 main {
+  max-width: 1280px;
+  margin: auto;
+  padding: 50px 0px;
+  display: flex;
+  flex-flow: row wrap-reverse;
+  justify-content: space-evenly;
+}
+.pag01 main .texto {
+  text-align: justify;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  flex: 0 1 600px;
+  margin: 20px;
+}
+.pag01 main .texto .tex p {
+  margin-bottom: 30px;
+}
+.pag01 main .texto .tex h1 {
+  font-size: 2.2em;
+  font-weight: bold;
+  text-align: center;
+  margin: 30px 0px;
+}
+.pag01 main .texto .tex button {
+  width: 80%;
+  border: 1px solid #23A5D9;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+  background-color: #81D959;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 15px;
+  margin: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.pag01 main .texto .tex button:hover, .pag01 main .texto .tex button:focus {
+  cursor: pointer;
+  background-color: #53fd04;
+  font-size: 0.9em;
+}
+.pag01 main .texto .tex .empresas {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+.pag01 main .texto .tex .empresas img {
+  height: 70px;
+}
+.pag01 main .texto .tex .empresas p {
+  text-align: flex-start;
+}
+.pag01 main .imagem {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pag01 main .imagem img {
+  min-height: 50px;
+  max-height: 100px;
+}
+
+.pag02 {
+  background-image: url(../img/SESSAO_02/1.png);
+  background-size: cover;
+}
+.pag02 main {
+  width: 90%;
+  margin: auto;
+  padding: 20px 0px;
+  color: white;
+}
+.pag02 main .vantagens_formulario {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.pag02 main .vantagens_formulario .vantagens {
+  flex: 1 1 400px;
+  max-width: 600px;
+  margin: auto;
+}
+.pag02 main .vantagens_formulario .vantagens h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.pag02 main .vantagens_formulario .vantagens div {
+  margin: 15px;
+  border-radius: 15px;
+  padding: 8px;
+  border: 2px solid white;
+  background-image: linear-gradient(#1F2B79, #2D4EB8);
+  margin-bottom: 20px;
+}
+.pag02 main .vantagens_formulario .vantagens p strong {
+  font-size: 1.2em;
+  color: #8BD4FF;
+}
+.pag02 main .vantagens_formulario .formulario {
+  flex: 1 0 300px;
+  max-width: 350px;
+  margin: auto;
+}
+.pag02 main .vantagens_formulario .formulario form {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.pag02 main .vantagens_formulario .formulario form h3 {
+  margin: 10px 0;
+}
+.pag02 main .vantagens_formulario .formulario form input {
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 8px;
+}
+.pag02 main .vantagens_formulario .formulario form button {
+  border: 1px solid #23A5D9;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+  background-color: #81D959;
+  color: white;
+  font-weight: bolder;
+  border-radius: 15px;
+  padding: 15px;
+}
+.pag02 main .vantagens_formulario .formulario form button:hover, .pag02 main .vantagens_formulario .formulario form button:focus {
+  cursor: pointer;
+  background-color: #53fd04;
+  font-size: 1em;
+}
+.pag02 main .copy_1 {
+  padding: 30px 0;
+}
+.pag02 main img {
+  display: block;
+  margin: auto;
+  max-width: 1000px;
+  width: 90%;
+}
+
+.pag03 img {
+  display: block;
+  padding-top: 30px;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+}
+.pag03 .assessoria {
+  margin-bottom: 20px;
+}
+.pag03 div {
+  background-image: linear-gradient(#1D2874, #3054C4);
+  border-radius: 15px;
+  margin: auto;
+  width: 80%;
+  max-width: 500px;
+  border: 1px solid black;
+  padding: 20px 0;
+  text-align: center;
+}
+.pag03 div h3 {
+  color: white;
+  margin: 10px 0;
+}
+.pag03 div h3 strong {
+  color: #8BD4FF;
+  font-size: 1.2em;
+}
+.pag03 div button {
+  margin-bottom: 20px;
+  border: 1px solid #23A5D9;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+  background-color: #81D959;
+  color: white;
+  font-weight: bolder;
+  border-radius: 15px;
+  padding: 15px;
+}
+.pag03 div button:hover, .pag03 div button:focus {
+  cursor: pointer;
+  background-color: #53fd04;
+  font-size: 0.9em;
+}
+.pag03 div p {
+  margin: 5px;
+  text-align: center;
+  color: white;
+  font-weight: 100;
+}
+.pag03 .logo_empresas {
+  max-width: 350px;
+}
+.pag03 .vagas_limitadas {
+  padding: 5px;
+  margin-top: 20px;
+  color: white;
+  background-color: #F20505;
+  text-align: center;
+}
+
+.pag04 {
+  display: block;
+  margin: auto;
+  background-image: url(../img/SESSAO_06/1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 30px;
+}
+.pag04 h3 {
+  margin: auto;
+  font-size: 2em;
+  max-width: 500px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.pag04 h3 strong {
+  color: #45BF41;
+}
+.pag04 h3 .alerta {
+  color: red;
+}
+.pag04 img {
+  display: block;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+.pag04 button {
+  min-width: 300px;
+  max-width: 600px;
+  border: 1px solid #23A5D9;
+  text-shadow: 0 0 1px black;
+  text-transform: uppercase;
+  background-color: #81D959;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 30px auto;
+  display: block;
+  margin-bottom: 10px;
+}
+.pag04 .contato {
+  margin: 50px auto;
+  min-width: 240px;
+}
+.pag04 button:hover, .pag04 button:focus {
+  cursor: pointer;
+  background-color: #53fd04;
+  font-size: 0.9em;
+}/*# sourceMappingURL=style.css.map */
