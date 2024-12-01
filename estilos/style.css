@@ -148,6 +148,9 @@
   background-image: linear-gradient(#1F2B79, #2D4EB8);
   margin-bottom: 20px;
 }
+.pag02 main .vantagens_formulario .vantagens p {
+  text-align: center;
+}
 .pag02 main .vantagens_formulario .vantagens p strong {
   font-size: 1.2em;
   color: #8BD4FF;
@@ -219,7 +222,7 @@
 }
 .pag03 div h3 {
   color: white;
-  margin: 10px 0;
+  margin: 10px 3px;
 }
 .pag03 div h3 strong {
   color: #8BD4FF;
