@@ -72,7 +72,10 @@
   text-align: center;
   margin: 30px 0px;
 }
-.pag01 main .texto .tex button {
+.pag01 main .texto .tex a {
+  text-decoration: none;
+}
+.pag01 main .texto .tex a button {
   width: 80%;
   border: 1px solid #23A5D9;
   text-shadow: 0 0 1px black;
@@ -86,7 +89,7 @@
   display: block;
   margin-bottom: 10px;
 }
-.pag01 main .texto .tex button:hover, .pag01 main .texto .tex button:focus {
+.pag01 main .texto .tex a button:hover, .pag01 main .texto .tex a button:focus {
   cursor: pointer;
   background-color: #53fd04;
   font-size: 0.9em;
@@ -176,6 +179,7 @@
   margin-bottom: 8px;
 }
 .pag02 main .vantagens_formulario .formulario form button {
+  width: 100%;
   border: 1px solid #23A5D9;
   text-shadow: 0 0 1px black;
   text-transform: uppercase;
@@ -289,6 +293,9 @@
   max-width: 800px;
   margin: auto;
 }
+.pag04 a {
+  text-decoration: none;
+}
 .pag04 button {
   min-width: 300px;
   max-width: 600px;
@@ -304,12 +311,12 @@
   display: block;
   margin-bottom: 10px;
 }
-.pag04 .contato {
-  margin: 50px auto;
-  min-width: 240px;
-}
 .pag04 button:hover, .pag04 button:focus {
   cursor: pointer;
   background-color: #53fd04;
   font-size: 0.9em;
+}
+.pag04 .contato {
+  margin: 50px auto;
+  min-width: 240px;
 }/*# sourceMappingURL=style.css.map */
