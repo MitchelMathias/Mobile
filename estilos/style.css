@@ -3,15 +3,10 @@
   padding: 0px;
   margin: 0px;
   box-sizing: 0px;
-  font-family: "Montserrat";
+  font-size: 1em;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
-.pag01 {
-  background-image: url(../img/SESSAO_01/7.png), url(../img/SESSAO_01/8.png);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
-  background-size: auto;
-}
 .pag01 header {
   display: flex;
   justify-content: space-between;
@@ -21,13 +16,14 @@
   height: 80px;
 }
 .pag01 header img {
-  height: 30px;
+  height: 50px;
 }
 .pag01 header ul {
   display: flex;
   list-style: none;
 }
 .pag01 header ul li {
+  font-size: 1.5em;
   padding: 5px;
   display: flex;
   align-items: center;
@@ -51,7 +47,7 @@
   margin: auto;
   padding: 50px 0px;
   display: flex;
-  flex-flow: row wrap-reverse;
+  flex-flow: column wrap-reverse;
   justify-content: space-evenly;
 }
 .pag01 main .texto {
@@ -65,10 +61,14 @@
 }
 .pag01 main .texto .tex p {
   margin-bottom: 30px;
+  font-size: 1.8em;
+  text-align: center;
 }
 .pag01 main .texto .tex h1 {
-  font-size: 2.2em;
-  font-weight: bold;
+  color: #1D2874;
+  text-transform: uppercase;
+  font-size: 3.5em;
+  font-weight: 800;
   text-align: center;
   margin: 30px 0px;
 }
@@ -84,7 +84,7 @@
   color: white;
   font-weight: bolder;
   border-radius: 10px;
-  padding: 15px;
+  padding: 25px;
   margin: auto;
   display: block;
   margin-bottom: 10px;
@@ -140,6 +140,7 @@
   margin: auto;
 }
 .pag02 main .vantagens_formulario .vantagens h1 {
+  font-size: 2em;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -166,6 +167,7 @@
 .pag02 main .vantagens_formulario .formulario form {
   border: 1px solid white;
   padding: 10px;
+  margin-top: 20px;
   border-radius: 15px;
   display: flex;
   flex-flow: column nowrap;
@@ -173,7 +175,7 @@
 .pag02 main .vantagens_formulario .formulario form h3 {
   margin: 10px 0;
 }
-.pag02 main .vantagens_formulario .formulario form input {
+.pag02 main .vantagens_formulario .formulario form input, .pag02 main .vantagens_formulario .formulario form select {
   border-radius: 15px;
   padding: 15px;
   margin-bottom: 8px;
@@ -319,4 +321,19 @@
 .pag04 .contato {
   margin: 50px auto;
   min-width: 240px;
+}
+
+@media screen and (max-width: 650px) {
+  h1 {
+    font-size: 2em !important;
+  }
+  li, p {
+    font-size: 1em !important;
+  }
+  header img {
+    height: 30px !important;
+  }
+  .pag01 button {
+    padding: 14px 0 !important;
+  }
 }/*# sourceMappingURL=style.css.map */

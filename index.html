@@ -23,7 +23,7 @@
         <main>
             <div class="texto">
                 <div class="tex">
-                    <h1>Aplique a metodologia de crescimento.</h1>
+                    <h1>Aplique a metodologia de crescimento</h1>
                     <p>Nossa assessoria estratégica integra marketing, vendas e pós vendas alinhados para aumentar seu faturamento em mais de 30% dentro de 6 meses.</p>
                     <a href="https://wa.me/554888417617
                     " target="_blank" rel="noopener"><button>Quero mais informações</button></a>
@@ -32,9 +32,6 @@
                         <p>+ de 500 empresas tomaram essa decisão. </p>
                     </div>
                 </div>
-            </div>
-            <div class="imagem">
-                <img src="img/SESSAO_01/logo.png" alt="logo da empresa">
             </div>
         </main>
     </div>
@@ -56,12 +53,17 @@
                     </div>
                 </section>
                 <section class="formulario">
-                    <form action="#" method="get" autocomplete="on">
+                    <form action="#" method="post" autocomplete="on" target="_blank">
                         <h3>Faça seu cadastro:</h3>
-                        <input type="text" autocomplete="name" placeholder="Nome">
-                        <input type="email" autocomplete="email" placeholder="Email">
-                        <input type="text" autocomplete="name" placeholder="Nome da Empresa" >
-                        <input type="number" autocomplete="tel" placeholder="Telefone">
+                        <input name="Nome" type="text" autocomplete="name" placeholder="Nome" required>
+                        <input name="Numero" type="number" autocomplete="tel" placeholder="Número" required>
+                        <input name="E-mail" type="email" autocomplete="email" placeholder="E-mail" required>
+                        <select title="Faturamento" name="Faturamento" name="faturamento" required>
+                            <option value="" disabled selected>Selecione uma opção</option>
+                            <option value="20k a 50k/mês">20k a 50k/mês</option>
+                            <option value="50k a 200k/mês">50k a 200k/mês</option>
+                            <option value="200k a 1 milhão/mês/mês">200k a 1 milhão/mês</option>
+                        </select>
                         <button type="submit">Enviar</button>
                     </form>
                 </section>
