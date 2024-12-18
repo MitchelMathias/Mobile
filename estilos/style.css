@@ -8,11 +8,14 @@
 }
 
 .pag01 header {
+  background-image: url(../img/SESSAO_02/1.png);
+}
+.pag01 header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: auto;
-  width: 90vw;
+  width: 90%;
   height: 80px;
 }
 .pag01 header img {
@@ -31,7 +34,7 @@
   margin: 0px 5px;
 }
 .pag01 header ul li a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
 .pag01 header ul li:hover {
@@ -45,18 +48,8 @@
 .pag01 main {
   max-width: 1280px;
   margin: auto;
-  padding: 50px 0px;
-  display: flex;
-  flex-flow: column wrap-reverse;
-  justify-content: space-evenly;
 }
 .pag01 main .texto {
-  text-align: justify;
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  flex: 0 1 600px;
   margin: 20px;
 }
 .pag01 main .texto .tex p {
@@ -106,16 +99,6 @@
 }
 .pag01 main .texto .tex .empresas p {
   text-align: flex-start;
-}
-.pag01 main .imagem {
-  margin: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.pag01 main .imagem img {
-  min-height: 50px;
-  max-height: 100px;
 }
 
 .pag02 {

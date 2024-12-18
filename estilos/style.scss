@@ -17,12 +17,15 @@ $cor2:#034AA6;
 
 .pag01{
     header{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin: auto;
-        width: 90vw;
-        height: 80px;
+        background-image: url(../img/SESSAO_02/1.png);
+        .header{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+            width: 90%;
+            height: 80px;
+        }
         img{
             height: 50px;
         }
@@ -37,7 +40,7 @@ $cor2:#034AA6;
                 height: 75px;
                 margin: 0px 5px;
                 a{
-                    color: black;
+                    color: white;
                     text-decoration: none;
                 }
             }
@@ -54,17 +57,7 @@ $cor2:#034AA6;
     main{
         max-width: 1280px;
         margin: auto;
-        padding: 50px 0px;
-        display: flex;
-        flex-flow: column wrap-reverse;
-        justify-content: space-evenly;
         .texto{
-            text-align: justify;
-            display: flex;
-            flex-flow: column nowrap;
-            justify-content: center;
-            align-items: center;
-            flex: 0 1 600px; // na media query tem que diminuir
             margin: 20px;
             .tex{
                 p{
@@ -118,18 +111,7 @@ $cor2:#034AA6;
                 }
             }
         }
-        .imagem{
-            margin: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            img{
-                min-height: 50px;
-                max-height: 100px;
-            }
-        }
     }
-    
 }
 
 .pag02{
