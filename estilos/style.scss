@@ -46,7 +46,7 @@ $cor2:#034AA6;
                     text-decoration: none;
                 }
             }
-            li:hover{
+            li:hover, li:focus{
                 background-color: $cor1;
                 a{
                     text-shadow: none;

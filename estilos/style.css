@@ -39,10 +39,10 @@
   color: white;
   text-decoration: none;
 }
-.pag01 header ul li:hover {
+.pag01 header ul li:hover, .pag01 header ul li:focus {
   background-color: #049DD9;
 }
-.pag01 header ul li:hover a {
+.pag01 header ul li:hover a, .pag01 header ul li:focus a {
   text-shadow: none;
   font-weight: bold;
   color: white;
