@@ -2,13 +2,14 @@
 * {
   padding: 0px;
   margin: 0px;
-  box-sizing: 0px;
+  box-sizing: border-box;
   font-size: 1em;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 .pag01 header {
   background-image: url(../img/SESSAO_02/1.png);
+  height: 90px;
 }
 .pag01 header .header {
   display: flex;
@@ -16,24 +17,25 @@
   align-items: center;
   margin: auto;
   width: 90%;
-  height: 80px;
+  height: 100%;
 }
 .pag01 header img {
-  height: 50px;
+  height: 60px;
 }
 .pag01 header ul {
   display: flex;
   list-style: none;
+  height: 100%;
 }
 .pag01 header ul li {
   font-size: 1.5em;
   padding: 5px;
   display: flex;
   align-items: center;
-  height: 75px;
   margin: 0px 5px;
 }
 .pag01 header ul li a {
+  position: relative;
   color: white;
   text-decoration: none;
 }
